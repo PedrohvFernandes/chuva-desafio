@@ -1,0 +1,19 @@
+/* Variaveis globais */
+:root{
+  --primary-color: #FDF1EB;
+  --secondary-color: #725C5C;
+  --white-color: #fff;
+  --orange-linear: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+  --orange1: #FFB455;
+  --orange2: #ED7839;
+  --cor-borda-de-baixo: #E7E7E7;
+
+  --white-opacity-color: rgba(255, 255, 255, 0.774);
+  --ligth-gray-color: #EEEEEE;
+  --cinza-gray-color: #dee2e6;
+  --cinza-escuro-color: #828283;
+  
+  /* Variaveis da twitch */
+  --color-opac-b-14: rgba(0,0,0,0.2);
+  --shadow-elevation-1: 0 1px 2px var(--color-opac-b-14),0 0px 2px var(--color-opac-b-14);
+}

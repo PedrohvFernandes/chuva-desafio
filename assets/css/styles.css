@@ -1,0 +1,10 @@
+/* Todo meu estilo */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.header-principal{
+  background-color: var(--primary-color);
+  height: 6.8rem;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+

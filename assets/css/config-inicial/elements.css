@@ -1,0 +1,57 @@
+/* Config global */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  /* o HTML esta com 62.5% que é 10px de 16px(100%) padrão do navegador  
+  com isso 1.6rem(filha) x 10px(HTMLouBODY/62.5%) = 16px(filha)
+  */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Quicksand';
+  /* 14px --> 1.4rem(filha) x 10px(HTML/62.5%) = 14x(filha => body) */
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  overflow-x: hidden;
+}
+
+ul{
+  list-style: none;
+}
+
+/* h1{
+  font-size: 3rem;
+} */
+
+/* h2{
+  font-size: 6rem;
+}
+
+h3{
+  font-size: 5rem;
+}
+
+h4{
+  font-size: 4.5rem;
+}
+
+h5{
+  font-size: 4rem;
+
+}
+
+h6{
+  font-size: 3.5rem;
+
+} */
+
+a{
+  text-decoration: none;
+  color: inherit;
+}

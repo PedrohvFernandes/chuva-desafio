@@ -1,0 +1,50 @@
+/* Menu e menu responsivo */
+
+.menu-lateral{
+  width: 22rem;
+  position: absolute; 
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+}
+
+.header-secundario{
+  background-image: var(--orange-linear);
+  height: 6.8rem;
+  font-family: 'Roboto';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.header-secundario h1{
+  font-weight: 700;
+  color: var(  --white-color);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  width: 17.8rem;
+}
+
+.lista-do-menu-secundario ul li{
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+  border-bottom: 0.2rem solid var(--cor-borda-de-baixo);
+}
+.lista-do-menu-secundario ul li:nth-child(4) {
+  border-left: 0.5rem solid var(--orange2);
+  background-color: var(--primary-color);
+}
+
+.lista-do-menu-secundario ul li p{
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-left: 2.4rem;
+
+}
+
+/* Responsivo */
