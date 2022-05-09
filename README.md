@@ -1,4 +1,8 @@
-# Chuva desafio - SLACA 2019
+# Chuva desafio Front-end - SLACA 2019
+
+Na parte de frontend foi preparado um protótipo de alta fidelidade de uma tela para implementar o HTML + CSS. Pode ser feito em CSS puro, 
+utilizar pré-processadores CSS (SASS, LESS, etc), ou mesmo utilizar um framework (Bootstrap, Foundation, Ant, etc), utilize a ferramenta 
+que você se sentir melhor e que lhe traga o melhor resultado.
 
 # 🔖 Layout e demonstração do projeto:
 - Layout: https://www.figma.com/file/0D27YdXU8ibf0AhsBC2OEm/Chuva---Exercício-Frontend?node-id=1%3A123
@@ -8,7 +12,8 @@
   <img height="450" src="">
 
 # Hospedagem Netlify: 
-  - Link: 
+
+- Link: 
 
 # ✨Stack de tecnologias usadas no projeto:
 
