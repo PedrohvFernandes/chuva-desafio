@@ -30,8 +30,15 @@ li{
 }
 
 li:hover{
-  border-left: 0.5rem solid var(--orange2);
   background-color: var(--primary-color);
+}
+
+li:hover::before{
+  content: '';
+  background-image: linear-gradient(#ffb354, #ee7a3a);
+  width: 0.5rem;
+  height: 3.3rem;
+  
 }
 
 /* h1{

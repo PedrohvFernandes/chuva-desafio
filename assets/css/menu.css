@@ -1,6 +1,6 @@
 /* Menu e menu responsivo */
 
-.menu-lateral{
+.side-menu{
   width: 22rem;
   position: absolute; 
   left: 0;
@@ -28,18 +28,24 @@
   width: 17.8rem;
 }
 
-.lista-do-menu-secundario ul li{
+.lista-do-menu ul li{
   display: flex;
   align-items: center;
   height: 3.5rem;
   border-bottom: 0.2rem solid var(--cor-borda-de-baixo);
 }
-.lista-do-menu-secundario ul li:nth-child(4) {
-  border-left: 0.5rem solid var(--orange2);
+.lista-do-menu ul li:nth-child(5){
   background-color: var(--primary-color);
 }
 
-.lista-do-menu-secundario ul li p{
+.lista-do-menu ul li:nth-child(5)::before{
+  content: '';
+  background-image: linear-gradient(#ffb354, #ee7a3a);
+  width: 0.5rem;
+  height: 3.3rem;
+}
+
+.lista-do-menu ul li p{
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1.8rem;

@@ -62,7 +62,7 @@
   appearance: none;
 }
 
-.usuario {
+.login {
   display: flex;
   text-align: end;
 }
