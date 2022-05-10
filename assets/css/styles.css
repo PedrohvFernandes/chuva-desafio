@@ -1,10 +1,5 @@
 /* Todo meu estilo */
-/* 900 Black */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
-/* 700 bold */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
-/* 400 regular*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 
 /* Header principal - left */
 .header-principal-container {
@@ -58,7 +53,7 @@
 
 .options-linguagem select {
   outline: none;
-  color: #333333;
+  color: var(--preto-claro);
   background-color: var(--primary-color);
   border: none;
   cursor: pointer;
@@ -100,18 +95,127 @@
 
 /* Conteudo video */
 .container{
-  
-
+  padding: 2rem 5rem;
+  height: auto;
 }
 
 .video-section{
   display: flex;
 }
-.video-left h2 {
+
+/* Esquerda */
+.video-left{
+  width: 80%;
+}
+
+.video-left h2{
+  width: 90%;
   font-size: 2rem;
   font-weight: 900;
   line-height: 2.5rem;
   letter-spacing: 0.05em;
   color: var(--orange2);
   font-family: "roboto";
+}
+
+.video-left img{
+  margin-top: 1.8rem;
+  width: 95%;
+  height: 80%;
+}
+
+/* Direita */
+.buttons-video-right{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.video-rigth .buttons-video-right button{
+  background-color: var(--orange2);
+  color: var(--white-color);
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  padding: 0.5rem 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+  
+}
+
+.button-donwload span{
+  margin-left: 0.5rem;
+  
+}
+
+.video-rigth .buttons-video-right button:hover{
+  background-color: var(--preto-claro);
+  transition: 0.5s ease-out;
+}
+
+.video-rigth .como-citar-esse-trabalho{
+  font-family: 'roboto';
+  height: 2.5rem;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.05rem;
+  color: var(--orange2);
+  margin-top: 1.0rem;
+  text-align: center;
+}
+
+.video-rigth-detalhes{
+  display: flex;
+  flex-direction: column;
+  border: 0.1rem solid var(--cor-de-borda);
+  width: 23.2rem;
+  min-height: 80%;
+}
+
+.video-rigth-detalhes .container-h2-detalhes{
+  background-color: var(--primary-color);
+  height: 4.3rem;
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+}
+
+.video-rigth-detalhes .container-h2-detalhes h2{
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.detalhes{
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 2%;
+  font-family: 'Quicksand';
+  color: var(--preto-claro2);
+  padding: 2rem 2rem;
+}
+
+.negrito-span{
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  letter-spacing: 2%;
+}
+
+.autores{
+  margin-top: 20px;
+}
+.universidades{
+  color: var( --marrom-claro);
+  margin-top: 30px;
 }
