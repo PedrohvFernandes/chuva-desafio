@@ -1,6 +1,5 @@
 /* Todo meu estilo */
 
-
 /* Header principal - left */
 .header-principal-container {
   display: flex;
@@ -9,7 +8,7 @@
   padding-right: 3.1rem;
   padding-left: 3.6rem;
   background-color: var(--primary-color);
-  font-family: 'roboto';
+  font-family: "roboto";
 }
 
 .header-principal p {
@@ -94,21 +93,21 @@
 }
 
 /* Conteudo video */
-.container{
+.container {
   padding: 2rem 5rem;
   height: auto;
 }
 
-.video-section{
+.video-section {
   display: flex;
 }
 
 /* Esquerda */
-.video-left{
+.video-left {
   width: 80%;
 }
 
-.video-left h2{
+.video-left h2 {
   width: 90%;
   font-size: 2rem;
   font-weight: 900;
@@ -118,20 +117,20 @@
   font-family: "roboto";
 }
 
-.video-left img{
+.video-left img {
   margin-top: 1.8rem;
   width: 95%;
   height: 80%;
 }
 
 /* Direita */
-.buttons-video-right{
+.buttons-video-right {
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 
-.video-rigth .buttons-video-right button{
+.video-rigth .buttons-video-right button {
   background-color: var(--orange2);
   color: var(--white-color);
   border: none;
@@ -147,75 +146,78 @@
   margin-left: 0.5rem;
   cursor: pointer;
   transition: 0.5s ease-out;
-  
 }
 
-.button-donwload span{
+.button-donwload span {
   margin-left: 0.5rem;
-  
 }
 
-.video-rigth .buttons-video-right button:hover{
+.video-rigth .buttons-video-right button:hover {
   background-color: var(--preto-claro);
   transition: 0.5s ease-out;
 }
 
-.video-rigth .como-citar-esse-trabalho{
-  font-family: 'roboto';
+.video-rigth .como-citar-esse-trabalho {
+  font-family: "roboto";
   height: 2.5rem;
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 2.5rem;
   letter-spacing: 0.05rem;
   color: var(--orange2);
-  margin-top: 1.0rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
-.video-rigth-detalhes{
+.video-rigth-detalhes {
   display: flex;
   flex-direction: column;
-  border: 0.1rem solid var(--cor-de-borda);
   width: 23.2rem;
-  min-height: 80%;
+  height: 59vh;
 }
 
-.video-rigth-detalhes .container-h2-detalhes{
-  background-color: var(--primary-color);
-  height: 4.3rem;
-  display: flex;
-  align-items: center;
-  padding-left: 1rem;
-}
-
-.video-rigth-detalhes .container-h2-detalhes h2{
-  font-family: 'roboto';
-  font-weight: 500;
-  font-size: 2rem;
-  line-height: 2.5rem;
-}
-
-.detalhes{
+.detalhes {
   font-weight: 400;
   font-size: 1.2rem;
-  line-height: 1.4rem;
-  letter-spacing: 2%;
-  font-family: 'Quicksand';
+  letter-spacing: 0.02em;
+  line-height: 120%;
+  font-family: "Quicksand";
   color: var(--preto-claro2);
-  padding: 2rem 2rem;
+  overflow-y: scroll;
 }
 
-.negrito-span{
+.negrito-span {
+  font-weight: 700;
+}
+
+.autores {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 120%;
+  margin-top: 2rem;
+}
+.universidades {
+  color: var(--marrom-claro);
+  line-height: 1.2rem;
+  letter-spacing: 100%;
+  margin-top: 4rem;
+}
+
+/* resumo */
+
+.resumo-texto p {
+  color: var(--preto-claro2);
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.02em;
+}
+
+.ver-mais-laranja {
+  cursor: pointer;
+  color: var(--orange2);
   font-weight: 700;
   font-size: 1.4rem;
-  line-height: 1.6rem;
-  letter-spacing: 2%;
-}
-
-.autores{
-  margin-top: 20px;
-}
-.universidades{
-  color: var( --marrom-claro);
-  margin-top: 30px;
+  line-height: 152.34%;
+  letter-spacing: 0.02em;
 }
