@@ -1,10 +1,83 @@
 /* Todo meu estilo */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
-.header-principal{
+.header-principal-container {
   background-color: var(--primary-color);
-  height: 6.8rem;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-weight: 400;
+}
+.header-principal-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf1eb;
+  padding: 0 31px 0 36px;
+}
+
+.header-principal p {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+}
+
+.header-principal p:nth-child(1) {
+  padding-top: 0.5rem;
+}
+
+.header-principal p:nth-child(3) {
+  padding-bottom: 0.2rem;
+}
+
+.header-principal h2 {
+  font-weight: 400;
+  padding-top: 0.3rem;
+  font-size: 2rem;
+  line-height: 2.6rem;
+}
+
+.header-da-direita{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options-linguagem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.1rem solid var(--CCCCCC);
+  border-radius: 0.3rem;
+  cursor: pointer;
+  height: 3.4rem;
+  width: 9.7rem;
+  margin-right: 2.2rem;
+}
+
+.options-linguagem select{
+  outline: none;
+  font-family: "Quicksand";
+  font-weight: 300;
+  color: #333333;
+  background-color: var(--primary-color);
+  border: none;
+  cursor: pointer;
+  appearance: none;
+}
+
+.usuario {
+  display: flex;
+  text-align: end;
+}
+
+.sobre-usuario p:nth-child(1) {
+  margin-bottom: 0.5rem;
+}
+
+.imagem-usuario {
+  position: relative;
+  cursor: pointer;
+}
+
+.imagem-usuario .notification {
+  position: absolute;
+  right: -0.2rem;
 }
 

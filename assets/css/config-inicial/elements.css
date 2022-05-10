@@ -25,6 +25,15 @@ ul{
   list-style: none;
 }
 
+li{
+  cursor: pointer;
+}
+
+li:hover{
+  border-left: 0.5rem solid var(--orange2);
+  background-color: var(--primary-color);
+}
+
 /* h1{
   font-size: 3rem;
 } */
