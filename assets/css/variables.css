@@ -1,11 +1,11 @@
 /* Variaveis globais */
-:root{
-  --primary-color: #FDF1EB;
-  --secondary-color: #725C5C;
+:root {
+  --primary-color: #fdf1eb;
+  --secondary-color: #725c5c;
   --white-color: #fff;
-  --orange-linear: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
-  --orange1: #FFB455;
-  --orange2: #ED7839;
-  --cor-borda-de-baixo: #E7E7E7;
-  --CCCCCC: #CCCCCC;
+  --orange-linear: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  --orange1: #ffb455;
+  --orange2: #ed7839;
+  --cor-borda-de-baixo: #e7e7e7;
+  --CCCCCC: #cccccc;
 }

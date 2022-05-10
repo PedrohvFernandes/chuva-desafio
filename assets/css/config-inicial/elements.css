@@ -1,11 +1,11 @@
 /* Config global */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html{
+html {
   /* o HTML esta com 62.5% que é 10px de 16px(100%) padrão do navegador  
   com isso 1.6rem(filha) x 10px(HTMLouBODY/62.5%) = 16px(filha)
   */
@@ -13,32 +13,38 @@ html{
   scroll-behavior: smooth;
 }
 
-body{
-  font-family: 'Quicksand';
+body {
+  font-family: "Quicksand";
   /* 14px --> 1.4rem(filha) x 10px(HTML/62.5%) = 14x(filha => body) */
   font-size: 1.4rem;
   color: var(--secondary-color);
-  overflow-x: hidden;
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
 }
 
-ul{
+main {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+ul {
   list-style: none;
 }
 
-li{
+li {
   cursor: pointer;
 }
 
-li:hover{
+li:hover {
   background-color: var(--primary-color);
 }
 
-li:hover::before{
-  content: '';
+li:hover::before {
+  content: "";
   background-image: linear-gradient(#ffb354, #ee7a3a);
   width: 0.5rem;
   height: 3.3rem;
-  
 }
 
 /* h1{
@@ -67,7 +73,7 @@ h6{
 
 } */
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
