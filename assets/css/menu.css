@@ -1,6 +1,4 @@
-/* Menu e menu responsivo */
-
-.side-menu{
+.side-menu {
   width: 22rem;
   /* position: absolute;  */
   /* left: 0;
@@ -9,52 +7,65 @@
   right: 0; */
 }
 
-.side-bar{
+.side-bar {
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.25);
   height: 100%;
 }
 
-.header-secundario{
+.header-secundario {
   background-image: var(--orange-linear);
   height: 6.8rem;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
-.header-secundario h1{
+.header-secundario h1 {
   font-weight: 700;
-  color: var(  --white-color);
+  color: var(--white-color);
   font-size: 3rem;
   line-height: 3.5rem;
   width: 17.8rem;
 }
 
-.lista-do-menu ul li{
+.lista-do-menu ul li {
   display: flex;
   align-items: center;
   height: 3.5rem;
   border-bottom: 0.2rem solid var(--cor-borda-de-baixo);
 }
-.lista-do-menu ul li:nth-child(5){
+.lista-do-menu ul li:nth-child(5) {
   background-color: var(--primary-color);
 }
 
-.lista-do-menu ul li:nth-child(5)::before{
-  content: '';
+.lista-do-menu ul li:nth-child(5)::before {
+  content: "";
   background-image: linear-gradient(#ffb354, #ee7a3a);
   width: 0.5rem;
   height: 3.3rem;
 }
 
-.lista-do-menu ul li p{
+.lista-do-menu ul li p {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1.8rem;
   margin-left: 2.4rem;
-
 }
 
-/* Responsivo */
+
+@media (max-width: 734px) {
+  .side-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--white-color);
+    height: 100%;
+  }
+
+  /* unset CSS redefine uma propriedade para seu valor herdado se a propriedade herdar naturalmente de seu pai e para seu valor inicial se não for. */
+  /* Nesse caso toda vez que for 734px na tela eu consigo passar pra de display none para display flex, sem alterar o seu valor realmente, eu simplesmente herdo do body o display dele porque no js eu falo pra inserir o .menu-open no body e o .side-menu herda o display dele. E quando retiro esse classe do body, o side-menu volta o display dela */
+  .menu-open .side-menu {
+    display: unset;
+  }
+
+}

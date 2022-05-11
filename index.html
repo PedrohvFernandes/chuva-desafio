@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/css/padrao/padrao.css">
     <link rel="stylesheet" href="assets/css/webkit/weblkit-detalhes.css">
     <link rel="stylesheet" href="assets/css/buttons/buttons.css">
+    <link rel="stylesheet" href='assets/css/responsivo/modal-user.css'>
+    <link rel="stylesheet" href="assets/css/responsivo/botao-menu.css">
     <link
       href="https://fonts.googleapis.com/css?family=Quicksand"
       rel="stylesheet"
@@ -20,8 +22,11 @@
   </head>
   <body>
     <!-- Menu lateral -->
-    <section class="side-menu">
+    <section class="side-menu" id="side-menu">
       <div class="side-bar">
+        <button class="x-fechar-menu-responsivo" id="x-fechar-menu-responsivo" onclick="abrirMenu()">
+          X
+        </button>
         <div class="header-secundario">
           <h1>SLACA 2019</h1>
         </div>
@@ -54,11 +59,16 @@
           </ul>
         </nav>
       </div>
+
     </section>
 
     <!-- Todo conteudo da pagina -->
     <main>
       <header class="header-principal-container">
+        <button class="button-laranja" onclick="abrirMenu()">
+          <img class="laranja-menu-responsivo" src="assets/img/icons/laranja.png" alt="uma laranja com boca, olhos e uma folhinha em cima dela"> 
+        </button>
+
         <div class="header-principal">
           <p>Anais do Simpósio Latino Americano de Ciências de Alimentos</p>
           <h2>
@@ -91,10 +101,15 @@
               <p>Bem vindo!</p>
               <p>alguem12@galoascience.com</p>
             </div>
+            <div class="modal-usuario-responsivo" id="modal-usuario-responsivo">
+              <p>Bem vindo!</p>
+              <p>alguem12@galoascience.com</p>
+            </div>
             <div class="imagem-usuario">
               <img
                 src="assets/img/Imagem-user.png"
                 alt="Imagem do usuario logado na pagina"
+                onclick="abrirModalUsuario()"
               />
               <img
                 class="notification"
@@ -201,7 +216,7 @@
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae turpis auctor, mollis felis ut, commodo turpis. Phasellus felis mauris, egestas eget cursus et, iaculis quis lacus. Fusce auctor eros sed magna ultricies gravida. Etiam aliquam dictum nisl, vel aliquet enim accumsan sit amet. Donec finibus nisi tellus, ut viverra lorem vestibulum ut.  Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum Phasellus condimentum orci id leo condimentum lobortis et non lorem. Sed id nisl metus. Quisque sollicitudin ligula in sapien scelerisque, ac gravida eros vestibulum.  Etiam aliquam dictum nisl, vel aliquet enim accumsan sit ametl accumsant<span id="pontos">...</span>
               <span id="mais" class="mais"> 
-
+              
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus exercitationem reprehenderit ea blanditiis quam temporibus, repudiandae voluptatibus mollitia facilis provident iure quibusdam at natus consequuntur qui atque doloribus earum quos!
 
               Fusce vitae luctus dui. Donec id euismod mauris, in volutpat urna. Proin dapibus consequat feugiat. Proin dictum justo arcu, quis vestibulum augue lacinia quis. Sed dignissim dui nulla, ut faucibus mauris sodales id. Aliquam erat volutpat. Maecenas dolor enim, tincidunt id elit non, suscipit interdum turpis. Etiam finibus urna libero, eget interdum eros volutpat ullamcorper. Pellentesque et pretium lorem. Aenean interdum quis diam ac porttitor. Cras nec ipsum pulvinar, pharetra libero non, ornare enim. Etiam in laoreet odio.

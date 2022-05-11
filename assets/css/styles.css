@@ -9,6 +9,8 @@
   padding-left: 3.6rem;
   background-color: var(--primary-color);
   font-family: "roboto";
+  width: 100%;
+  height:  6.8rem;
 }
 
 .header-principal p {
@@ -298,4 +300,47 @@
 
 footer{
   margin-left: 1.5rem;
+}
+
+/* responsivo */
+@media (max-width:1285px) {
+
+  
+}
+
+
+@media (max-width:1280px) {
+ 
+  .header-principal h2 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+  
+}
+
+@media (max-width:1110px) {
+ 
+  .header-principal h2 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  
+
+  .header-principal p{
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:896px) {
+ 
+  .sobre-usuario p{
+    display: none;
+  }
+}
+
+@media (max-width:734px) {
+
+  .header-principal-container{
+    padding: 0;
+  }
 }

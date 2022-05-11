@@ -1,0 +1,33 @@
+/* Modal responsivo do user */
+.modal-usuario-responsivo{
+  display: none;
+  position: absolute;
+  top: 6rem;
+  right:2rem;
+  text-align: center;
+  background-color: var(--orange2);
+  color: var(--white-color);
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  border: 0.1rem solid var(--preto-claro);
+}
+
+.modal-usuario-responsivo::before{
+  /* display: none; */
+  content: '';
+  position: relative;
+  top: -1.2rem;
+  right:-6.3rem;
+  background-color: var(--orange2);
+  color: var(--white-color);
+  padding: 0.5rem 0.5rem;
+  border-radius: 1rem;
+  border: 0.1rem solid var(--preto-claro);
+}
+
+@media (max-width:734px) {
+
+  .modal-usuario-responsivo::before{
+    right:-9.3rem;
+  }
+}
