@@ -47,31 +47,6 @@ li:hover::before {
   height: 3.3rem;
 }
 
-button {
-  background-color: var(--orange2);
-  color: var(--white-color);
-  border: none;
-  border-radius: 0.4rem;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.9rem;
-  padding: 0.5rem 1.3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3.1rem;
-  margin-left: 0.5rem;
-  cursor: pointer;
-  transition: 0.5s ease-out;
-}
-
-
-button:hover{
-  background-color: var(--preto-claro);
-  transition: 0.5s ease-out;
-  background-image: none;
-}
-
 /* h1{
   font-size: 3rem;
 } */

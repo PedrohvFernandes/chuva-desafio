@@ -20,9 +20,19 @@
 }
 
 .p2-p2-texto-modal{
+  /* 2 em cima e 2em baixo */
   padding: 2rem 2rem;
+}
+
+.p2_5-p1_5-texto-modal{
+  /* 1.5 em cima e 2.5 em baixo */
+  padding: 1.5rem 2.5rem;
 }
 
 .span-bottao{
   margin-left: 0.5rem;
+}
+
+.negrito-span {
+  font-weight: 700;
 }

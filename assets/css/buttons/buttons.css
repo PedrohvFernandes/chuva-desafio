@@ -1,0 +1,48 @@
+/* Buttons em geral */
+.button-donwload, .button-estrela-favoritar, .button-doi, .buttao-criar-topico {
+  background-color: var(--orange2);
+  color: var(--white-color);
+  border: none;
+  border-radius: 0.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.9rem;
+  padding: 0.5rem 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3.1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: 0.5s ease-out;
+}
+
+
+.button-donwload:hover, .button-estrela-favoritar:hover, .button-doi:hover, .buttao-criar-topico:hover{
+  background-color: var(--preto-claro);
+  transition: 0.5s ease-out;
+  background-image: none;
+}
+
+/* Buttons do topico -> tres pontos / coração */
+
+.button-tres-pontos-info{
+  margin-right: 1rem;
+}
+
+.button-tres-pontos-info, .button-favoritar-coracao{
+  border: none;
+  outline: none;
+  background-color: var(--white-color);
+  cursor: pointer;
+}
+
+.button-favoritar-coracao path{
+  transition: 0.5s ease-out;
+  cursor: pointer;
+}
+
+.button-favoritar-coracao path:hover{
+  transition: 0.5s ease-out;
+  fill: var(--preto-claro);
+}
