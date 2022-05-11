@@ -1,9 +1,9 @@
 /* Modal responsivo do user */
-.modal-usuario-responsivo{
+.modal-usuario-responsivo {
   display: none;
   position: absolute;
   top: 6rem;
-  right:2rem;
+  right: 2rem;
   text-align: center;
   background-color: var(--orange2);
   color: var(--white-color);
@@ -12,12 +12,12 @@
   border: 0.1rem solid var(--preto-claro);
 }
 
-.modal-usuario-responsivo::before{
+.modal-usuario-responsivo::before {
   /* display: none; */
-  content: '';
+  content: "";
   position: relative;
   top: -1.2rem;
-  right:-6.3rem;
+  right: -6.3rem;
   background-color: var(--orange2);
   color: var(--white-color);
   padding: 0.5rem 0.5rem;
@@ -25,9 +25,106 @@
   border: 0.1rem solid var(--preto-claro);
 }
 
-@media (max-width:734px) {
+@media (max-width: 1280px) {
+  .modal-usuario-responsivo::before {
+    right: -6.2rem;
+  }
+}
 
-  .modal-usuario-responsivo::before{
-    right:-9.3rem;
+
+@media (max-width: 912px) {
+  .modal-usuario-responsivo::before {
+    right: -7.8rem;
+  }
+}
+
+@media (max-width: 897px) {
+  .modal-usuario-responsivo::before {
+    right: -6.2rem;
+  }
+}
+
+@media (max-width: 880px) {
+  .modal-usuario-responsivo::before {
+    right: -6.2rem;
+  }
+}
+
+@media (max-width: 734px) {
+  .modal-usuario-responsivo::before {
+    right: -9.3rem;
+  }
+}
+
+
+@media (max-width: 667px) {
+  .modal-usuario-responsivo {
+    top: 8rem;
+    right: 0.5rem;
+  }
+  .modal-usuario-responsivo::before {
+    right: -9.5rem;
+  }
+}
+
+@media (max-width: 665px) {
+  .modal-usuario-responsivo {
+    top: 6rem;
+    right: 2.2rem;
+  }
+  .modal-usuario-responsivo::before {
+    right: -9.5rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .modal-usuario-responsivo {
+    top: 6rem;
+    right: 0.5rem;
+  }
+  .modal-usuario-responsivo::before {
+    right: -9.5rem;
+  }
+}
+
+
+@media (max-width: 412px) {
+  .modal-usuario-responsivo {
+    top: 7.5rem;
+    right: 0.5rem;
+  }
+  .modal-usuario-responsivo::before {
+    right: -9.5rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .modal-usuario-responsivo {
+    top: 8rem;
+    right: 0.5rem;
+  }
+  .modal-usuario-responsivo::before {
+    right: -9.5rem;
+  }
+}
+
+
+
+@media (max-width:360px) {
+  .modal-usuario-responsivo {
+    top: 10rem;
+    right: 0.5rem;
+  }
+
+}
+
+
+@media (max-width:280px) {
+  .modal-usuario-responsivo {
+    top: 16.5rem;
+    right: 4rem;
+  }
+  .modal-usuario-responsivo::before {
+    right: -6.5rem;
   }
 }
