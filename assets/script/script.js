@@ -33,3 +33,11 @@ abrirModalUsuario();
 function abrirMenu() {
   document.body.classList.toggle("menu-open")
 }
+
+function criarTopico() {
+  
+}
+
+function abrirTopico() {
+  
+}
