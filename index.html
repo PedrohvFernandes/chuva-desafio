@@ -133,7 +133,7 @@
           </div>
           <div class="video-rigth">
             <div class="buttons-video-right">
-              <a href="meContrataPorFavor.html" download="meContrataPorFavor.html">
+              <a href="meContrataPorFavor.html" download="meContrataPorFavor.html" style="text-decoration: none">
                 <button class="button-donwload">
                   <img src="assets/img/icons/Donwload.svg" alt="icone com uma seta branca apontando para um computador">
                   <span class="span-bottao">Download</span> 
@@ -235,22 +235,70 @@
             <h2>Discussões</h2>
           </div>
           <div class="discussoes-comentarios-icones">
-            <p>
-              Compartilhe suas ideias ou dúvidas com os autores!
-            </p>
-            <div class="discussoes-icons">
-              <img src="assets/img/icons/maocomflor.svg" alt="uma mao com uma flor">
-              <img src="assets/img/icons/nuvensdeopinioes.svg" alt="nuves com um Q e um A, sentido de opiniões diferentes">
-              <img src="assets/img/icons/duaspessoastendoideias.svg" alt=" duas pessoas e uma lanterna em cima, sentido de ideia">
+            <!-- Div na hora de criar um topico -->
+            <div class="criar-topico-duvida" id="criar-topico-duvida">  
+              <p>
+                Compartilhe suas ideias ou dúvidas com os autores!
+              </p>
+              <div class="discussoes-icons">
+                <img src="assets/img/icons/maocomflor.svg" alt="uma mao com uma flor">
+                <img src="assets/img/icons/nuvensdeopinioes.svg" alt="nuves com um Q e um A, sentido de opiniões diferentes">
+                <img src="assets/img/icons/duaspessoastendoideias.svg" alt=" duas pessoas e uma lanterna em cima, sentido de ideia">
+              </div>
+              <p class="descricao-sobre-discussoes">
+                Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!
+              </p>
+              <div class="linha-divisoria"></div>
+              <button class="buttao-criar-topico" onclick="criarTopico()">
+              <img src="assets/img/icons/icon - criar.svg" alt='sinal de adição'/>
+              <span class="span-bottao"> criar tópico </span>
+              </button>
             </div>
-            <p class="descricao-sobre-discussoes">
-              Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!
-            </p>
-            <div class="linha-divisoria"></div>
-            <button class="buttao-criar-topico" onclick="criarTopico()">
-             <img src="assets/img/icons/icon - criar.svg" alt='sinal de adição'/>
-             <span class="span-bottao"> criar tópico </span>
-            </button>
+            <!-- Div de enviar um topico -->
+            <div class="enviar-topico-duvida" id="enviar-topico-duvida">
+              <p class="paragrafo-enviando-uma-duvida">
+                Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores
+              </p>
+              <div class="novo-assunto">
+                <div class="primeiro-input">
+                  <label>Assunto</label>
+                  <input class="input-assunto" type="text"  placeholder="Defina um tópico sucinto para notificar os autores...">
+                </div>
+                <div class="segundo-input">
+                  <label>Conteúdo</label>
+                  <textarea rows="6"></textarea>
+                  <div class="botoes-de-enviar-topico">
+                    <div class="buttons-de-modificacao-de-texto">
+                      <img class="button-b-bold" src="assets/img/icons/Shape B.svg" alt="Um B de bold na cor preta que deixa o texto escuro">
+                      <img class="button-i-italic" src="assets/img/icons/Shape I.svg" alt="Um I italic na cor preta que deixa o texto em italico">
+                    </div>
+                    <button class="button-enviar-topico" onclick="enviarTopico()">
+                      Enviar
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="linha-divisoria-enviar-topico"></div>
+            </div>
+            <!-- Div quando o topico-feedback foi enviado -->
+            <div class="topico-duvida-enviado" id="topico-duvida-enviado">
+              <h2>
+                Seu tópico foi enviado com sucesso! :D
+              </h2>
+              <p>
+                Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!
+              </p>
+              <a href="#">Descubra outros trabalhos!</a>
+              <div class="linha-divisoria-topico-enviado"></div>
+              <button class="buttao-criar-novo-topico" onClick="criarTopico()">
+                Criar novo tópico
+              </button>
+              <div class="feedback-enviado">
+                <img src="assets/img/icons/icone enviado feedback.svg">
+                <p>Aguardando feedback dos autores</p>
+                <a href="#">Editar tópico</a>
+              </div>
+            </div>
             <div class="topicos">
               <div class="topico p2_5-p1_5-texto-modal border-1px-solid">
                 <div class="container-header">
