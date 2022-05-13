@@ -6,16 +6,16 @@
   --orange-linear: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
   --orange1: #ffb455;
   --orange2: #ed7839;
-  --orange3: #F48F44;
+  --orange3: #f48f44;
   --cor-borda-de-baixo: #e7e7e7;
   --CCCCCC: #cccccc;
-  --cinza: #BFBFBF;
+  --cinza: #bfbfbf;
   --cinza-escuro: #595959;
-  --cinza-mais-escuro: #4D4D4D;
+  --cinza-mais-escuro: #4d4d4d;
   --cinza-claro: #f8f8f8;
   --preto-claro: #333333;
-  --preto-claro2:#5C5C5C;
-  --marrom-claro: #ADA0A0;
-  --cor-de-borda: #ECECEC;
-  --azul-claro: #EAF1F2;
+  --preto-claro2: #5c5c5c;
+  --marrom-claro: #ada0a0;
+  --cor-de-borda: #ececec;
+  --azul-claro: #eaf1f2;
 }

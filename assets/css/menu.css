@@ -54,7 +54,6 @@
   margin-left: 2.4rem;
 }
 
-
 @media (max-width: 734px) {
   .side-menu {
     display: none;
@@ -68,5 +67,4 @@
   .menu-open .side-menu {
     display: unset;
   }
-
 }

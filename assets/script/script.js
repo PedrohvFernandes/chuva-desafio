@@ -31,7 +31,7 @@ abrirModalUsuario();
 
 // Função para abrir o menu de navegação
 function abrirMenu() {
-  document.body.classList.toggle("menu-open")
+  document.body.classList.toggle("menu-open");
 }
 
 function criarTopico() {
@@ -51,16 +51,16 @@ function abrirTopico() {
   let tresPontos = document.getElementById("tres-pontos");
   let mais = document.getElementById("mais-pergunta-topico");
 
-  if(respostas.style.display === 'none'){
-    respostas.style.display = 'block';
-    topicoComResposta.style.marginBottom = '0';
-    tresPontos.style.display = 'none';
-    mais.style.display = 'flex';
-  }else{ 
-    respostas.style.display = 'none';
-    topicoComResposta.style.marginBottom = '1.6rem';
-    tresPontos.style.display = 'inline';
-    mais.style.display = 'none';
+  if (respostas.style.display === "none") {
+    respostas.style.display = "block";
+    topicoComResposta.style.marginBottom = "0";
+    tresPontos.style.display = "none";
+    mais.style.display = "flex";
+  } else {
+    respostas.style.display = "none";
+    topicoComResposta.style.marginBottom = "1.6rem";
+    tresPontos.style.display = "inline";
+    mais.style.display = "none";
   }
 }
 abrirTopico();

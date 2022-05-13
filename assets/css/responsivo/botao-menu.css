@@ -1,4 +1,4 @@
-.button-laranja{
+.button-laranja {
   display: none;
   outline: none;
   border: none;
@@ -7,13 +7,13 @@
   cursor: pointer;
 }
 
-.laranja-menu-responsivo{
+.laranja-menu-responsivo {
   width: 5rem;
   margin-left: 1rem;
   margin-right: 1rem;
 }
 
-.x-fechar-menu-responsivo{
+.x-fechar-menu-responsivo {
   display: none;
   outline: none;
   border: none;
@@ -30,15 +30,15 @@
   left: 18.6rem;
   transition: 0.5s ease-in-out;
 }
-.x-fechar-menu-responsivo:hover{
+.x-fechar-menu-responsivo:hover {
   background: var(--preto-claro);
   transition: 0.5s ease-in-out;
 }
-@media (max-width:734px) {
-  .button-laranja{
+@media (max-width: 734px) {
+  .button-laranja {
     display: block;
   }
-  .x-fechar-menu-responsivo{
+  .x-fechar-menu-responsivo {
     display: block;
   }
 }

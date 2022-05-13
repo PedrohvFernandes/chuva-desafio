@@ -1,4 +1,4 @@
-.flex-center-p1-primary-color-borda{
+.flex-center-p1-primary-color-borda {
   display: flex;
   align-items: center;
   padding-left: 1rem;
@@ -8,28 +8,28 @@
   height: 4.5rem;
 }
 
-.flex-center-p1-primary-color-borda h2{
-  font-family: 'roboto';
+.flex-center-p1-primary-color-borda h2 {
+  font-family: "roboto";
   font-weight: 500;
   font-size: 2rem;
   line-height: 2.5rem;
 }
 
-.border-1px-solid{
+.border-1px-solid {
   border: 0.1rem solid var(--cor-de-borda);
 }
 
-.p2-p2-texto-modal{
+.p2-p2-texto-modal {
   /* 2 em cima e 2em baixo */
   padding: 2rem 2rem;
 }
 
-.p2_5-p1_5-texto-modal{
+.p2_5-p1_5-texto-modal {
   /* 1.5 em cima e 2.5 em baixo */
   padding: 1.5rem 2.5rem;
 }
 
-.span-bottao{
+.span-bottao {
   margin-left: 0.5rem;
 }
 

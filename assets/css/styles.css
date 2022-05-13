@@ -220,7 +220,7 @@
 }
 /* Criar topico */
 
-.criar-topico-duvida{
+.criar-topico-duvida {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -262,46 +262,47 @@
 
 /* Enviar topico */
 
-.enviar-topico-duvida{
+.enviar-topico-duvida {
   width: 100%;
   display: none;
   padding: 0rem 2rem 0rem;
 }
 
-.paragrafo-enviando-uma-duvida{
+.paragrafo-enviando-uma-duvida {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.7rem;
   text-align: center;
   margin-top: 1rem;
 }
-.novo-assunto{
+.novo-assunto {
   width: 100%;
 }
 
-.novo-assunto .primeiro-input{
+.novo-assunto .primeiro-input {
   display: flex;
   flex-direction: column;
 }
 
-.novo-assunto .segundo-input{
+.novo-assunto .segundo-input {
   display: flex;
   flex-direction: column;
 }
 
-.primeiro-input label, .segundo-input label {
-  font-family: 'Roboto';
+.primeiro-input label,
+.segundo-input label {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 1.8rem;
   color: var(--orange2);
 }
 
-.segundo-input label{
+.segundo-input label {
   margin-top: 1rem;
 }
 
-.primeiro-input input{
+.primeiro-input input {
   outline: none;
   font-family: "Quicksand";
   font-weight: 400;
@@ -313,7 +314,8 @@
   border: 1px solid var(--CCCCCC);
 }
 
-.primeiro-input input, textarea{
+.primeiro-input input,
+textarea {
   outline: none;
   font-family: "Quicksand";
   font-weight: 400;
@@ -325,11 +327,11 @@
   padding: 1rem 1.5rem;
 }
 
-textarea{
+textarea {
   resize: none;
 }
 
-.botoes-de-enviar-topico{
+.botoes-de-enviar-topico {
   background-color: var(--azul-claro);
   display: flex;
   justify-content: space-between;
@@ -337,15 +339,15 @@ textarea{
   border: 0.1rem solid var(--CCCCCC);
 }
 
-.button-b-bold{
+.button-b-bold {
   margin-left: 1rem;
 }
 
-.button-i-italic{
+.button-i-italic {
   margin-left: 1rem;
 }
 
-.linha-divisoria-enviar-topico{
+.linha-divisoria-enviar-topico {
   border-bottom: 0.1rem solid var(--cor-borda-de-baixo);
   width: 100%;
   margin-bottom: 2.5rem;
@@ -354,7 +356,7 @@ textarea{
 
 /* Topico enviado */
 
-.topico-duvida-enviado{
+.topico-duvida-enviado {
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -363,24 +365,25 @@ textarea{
   padding: 0rem 2rem 0rem;
 }
 
-.topico-duvida-enviado h2{
-  font-family: 'Roboto';
+.topico-duvida-enviado h2 {
+  font-family: "Roboto";
   font-weight: 700;
-  font-size:1.8rem;
+  font-size: 1.8rem;
   line-height: 2.1rem;
   color: var(--orange2);
   margin-bottom: 1.5rem;
   margin-top: 1rem;
 }
 
-.topico-duvida-enviado p{
+.topico-duvida-enviado p {
   font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.9rem;
   margin-bottom: 1.5rem;
 }
 
-.topico-duvida-enviado .descubra-outros-trabalhos, .feedback-enviado .editar-topico{
+.topico-duvida-enviado .descubra-outros-trabalhos,
+.feedback-enviado .editar-topico {
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.9rem;
@@ -390,12 +393,12 @@ textarea{
   cursor: pointer;
 }
 
-.linha-divisoria-topico-enviado{
+.linha-divisoria-topico-enviado {
   border-bottom: 0.1rem solid var(--cor-borda-de-baixo);
   margin-top: 5rem;
 }
 
-.feedback-enviado{
+.feedback-enviado {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -420,7 +423,7 @@ textarea{
   cursor: pointer;
 }
 
-.mais-pergunta-topico{
+.mais-pergunta-topico {
   display: none;
 }
 
@@ -461,7 +464,7 @@ textarea{
 }
 
 /* Respostas dos topicos */
-.respostas-do-topico{
+.respostas-do-topico {
   margin-bottom: 1.6rem;
   display: none;
 }
@@ -471,17 +474,16 @@ textarea{
   border-radius: 0;
 }
 
-.topico-resposta-autor .container-header-topico{
+.topico-resposta-autor .container-header-topico {
   display: flex;
   justify-content: space-between;
 }
 
-
-.topico-resposta-autor .container-header-topico div{
+.topico-resposta-autor .container-header-topico div {
   display: flex;
 }
 
-.topico-resposta-autor .container-header-topico div p{
+.topico-resposta-autor .container-header-topico div p {
   margin-right: 1rem;
   font-weight: 700;
   font-size: 1.4rem;
@@ -493,7 +495,7 @@ footer {
   margin-left: 1.5rem;
 }
 
-footer img{
+footer img {
   width: 100%;
 }
 
@@ -547,13 +549,13 @@ footer img{
   .header-principal-container {
     padding: 0;
   }
-  .header-principal-container{
+  .header-principal-container {
     height: auto;
   }
 }
 
 @media (max-width: 280px) {
-  .header-principal-container{
+  .header-principal-container {
     flex-direction: column;
     padding: 0.5rem 0.5rem;
   }

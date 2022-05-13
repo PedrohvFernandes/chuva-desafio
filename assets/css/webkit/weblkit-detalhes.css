@@ -12,5 +12,4 @@
   background-color: var(--cinza); /* color of the scroll thumb */
   border-radius: 0.5rem; /* roundness of the scroll thumb */
   border: 0.3rem solid var(--cinza); /* creates padding around scroll thumb */
-  
 }
