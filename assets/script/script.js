@@ -42,9 +42,25 @@ function criarTopico() {
 
 function enviarTopico() {
   document.getElementById("enviar-topico-duvida").style.display = "none";
-  document.getElementById("topico-duvida-enviado").style.display = "block";
+  document.getElementById("topico-duvida-enviado").style.display = "flex";
 }
 
 function abrirTopico() {
-  
+  let topicoComResposta = document.getElementById("topico-com-resposta");
+  let respostas = document.getElementById("respostas");
+  let tresPontos = document.getElementById("tres-pontos");
+  let mais = document.getElementById("mais-pergunta-topico");
+
+  if(respostas.style.display === 'none'){
+    respostas.style.display = 'block';
+    topicoComResposta.style.marginBottom = '0';
+    tresPontos.style.display = 'none';
+    mais.style.display = 'flex';
+  }else{ 
+    respostas.style.display = 'none';
+    topicoComResposta.style.marginBottom = '1.6rem';
+    tresPontos.style.display = 'inline';
+    mais.style.display = 'none';
+  }
 }
+abrirTopico();

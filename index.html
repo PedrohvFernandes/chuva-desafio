@@ -234,7 +234,7 @@
           <div class="discussoes-header flex-center-p1-primary-color-borda">
             <h2>Discussões</h2>
           </div>
-          <div class="discussoes-comentarios-icones">
+            <div class="discussoes-comentarios-icones">
             <!-- Div na hora de criar um topico -->
             <div class="criar-topico-duvida" id="criar-topico-duvida">  
               <p>
@@ -288,20 +288,20 @@
               <p>
                 Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!
               </p>
-              <a href="#">Descubra outros trabalhos!</a>
+              <p class="descubra-outros-trabalhos">Descubra outros trabalhos!</p>
               <div class="linha-divisoria-topico-enviado"></div>
               <button class="buttao-criar-novo-topico" onClick="criarTopico()">
                 Criar novo tópico
               </button>
-              <div class="feedback-enviado">
-                <img src="assets/img/icons/icone enviado feedback.svg">
+              <div class="feedback-enviado border-1px-solid">
+                <img src="assets/img/icons/icone enviado feedback.svg" alt="dois v dar cor preta indicando ok">
                 <p>Aguardando feedback dos autores</p>
-                <a href="#">Editar tópico</a>
+                <p class="editar-topico">Editar tópico</p>
               </div>
             </div>
             <div class="topicos">
               <div class="topico p2_5-p1_5-texto-modal border-1px-solid">
-                <div class="container-header">
+                <div class="container-header-topico">
                   <h2>Assunto da pergunta aparece aqui</h2>
                   <p>Carlos Henrique Santos</p>
                 </div>
@@ -338,12 +338,16 @@
                   <p>1 resposta</p>
                 </div>
               </div>
-              <div class="topico p2_5-p1_5-texto-modal border-1px-solid" onclick="abrirTopico()">
-                <div class="container-header">
+              <div class="topico p2_5-p1_5-texto-modal border-1px-solid" id="topico-com-resposta" onclick="abrirTopico()">
+                <div class="container-header-topico">
                   <h2>Assunto da pergunta aparece aqui</h2>
                   <p>Carlos Henrique Santos</p>
                 </div>
-                <p class="pergunta-do-topico">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo...</p>
+                <p class="pergunta-do-topico">Comecinho da pergunta aparece aqui resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo<span id="tres-pontos">...</span>
+                  <span id="mais-pergunta-topico" class="mais-pergunta-topico"> 
+                    resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo?
+                  </span>
+                </p>
                 <div class="buttons-favoritar-mais-info">
                   <button class="button-tres-pontos-info">
                     <img class="button-info" src="assets/img/icons/mais informações.svg" alt=" botao de 3 pontos">
@@ -372,9 +376,52 @@
                       </defs>
                     </svg>
                   </button>
-                  <p>1 like</p>
-                  <p>1 resposta</p>
+                  <p>4 like</p>
+                  <p>4 resposta</p>
                 </div>
+              </div>
+              <div class="respostas-do-topico" id="respostas">
+                <div class="topico-resposta-autor p2_5-p1_5-texto-modal border-1px-solid">
+                  <div class="container-header-topico">
+                    <p>Adriano da Silva</p>
+                    <div>
+                      <p> Autor </p>
+                      <img src="assets/img/icons/dois v.svg" alt="dois vezinhos laranjas com sentido de ok">
+                    </div>
+                  </div>
+                  <p class="pergunta-do-topico">Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.</p>
+                </div>
+                <div class="topico-resposta-de-quem-perguntou p2_5-p1_5-texto-modal border-1px-solid">
+                  <div class="container-header-topico">
+                    <p>Carlos Henrique Santos</p>
+                  </div>
+                  <p class="pergunta-do-topico">Consegui entender melhor agora! Parece que a variação da análise da dimensão e impacto de processo formativo situado impacto de processo formativo.
+
+                    Obrigada pela resposta, muito interessante o seu trabalho! </p>
+                </div>
+                <div class="topico-resposta-autor p2_5-p1_5-texto-modal border-1px-solid">
+                  <div class="container-header-topico">
+                    <p>Adriano da Silva</p>
+                    <div>
+                      <p> Coautor </p>
+                      <img src="assets/img/icons/dois v.svg" alt="dois vezinhos laranjas com sentido de ok">
+                    </div>
+                  </div>
+                  <p class="pergunta-do-topico">Também ínteressante lembrar que o relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.
+
+                    Situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.</p>
+                </div>
+                <div class="topico-resposta-autor p2_5-p1_5-texto-modal border-1px-solid">
+                  <div class="container-header-topico">
+                    <p>Ana Carolina</p>
+                    <div>
+                      <p> Coautor </p>
+                      <img src="assets/img/icons/dois v.svg" alt="dois vezinhos laranjas com sentido de ok">
+                    </div>
+                  </div>
+                  <p class="pergunta-do-topico">Resposta do autor é aqui. Relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo resente relato inscreve-se no campo da análise da dimensão e impacto de processo formativo situado impacto de processo formativo processo.</p>
+                </div>
+              </div>
               </div>
             </div>
           </div>

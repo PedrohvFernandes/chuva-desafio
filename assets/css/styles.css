@@ -355,6 +355,8 @@ textarea{
 /* Topico enviado */
 
 .topico-duvida-enviado{
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   display: none;
   width: 100%;
@@ -378,13 +380,14 @@ textarea{
   margin-bottom: 1.5rem;
 }
 
-.topico-duvida-enviado a{
+.topico-duvida-enviado .descubra-outros-trabalhos, .feedback-enviado .editar-topico{
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.9rem;
   color: var(--orange3);
   margin-top: 1rem;
- 
+  border-bottom: 0.1rem solid var(--orange3);
+  cursor: pointer;
 }
 
 .linha-divisoria-topico-enviado{
@@ -397,8 +400,6 @@ textarea{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-position: center;
-  border: 0.1rem solid var(--cor-borda-de-baixo);
   box-shadow: 0 0 0.8rem rgb(0 0 0 / 12%);
   margin-bottom: 1.6rem;
   width: 100%;
@@ -413,26 +414,30 @@ textarea{
 }
 
 .topico {
-  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.12);
-  border-radius: 0.4rem;
-  margin-bottom: 1.5rem;
+  box-shadow: 0 0 0.8rem rgb(0 0 0 / 12%);
+  margin-bottom: 1.6rem;
+  width: 100%;
   cursor: pointer;
 }
 
-.container-header {
+.mais-pergunta-topico{
+  display: none;
+}
+
+.container-header-topico {
   margin-bottom: 1rem;
 }
 
-.container-header h2 {
+.container-header-topico h2 {
   color: var(--orange2);
   font-weight: 700;
   font-size: 1.6rem;
   line-height: 2rem;
 }
 
-.container-header p {
+.container-header-topico p {
   color: var(--preto-claro2);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.2rem;
   line-height: 1.5rem;
 }
@@ -450,12 +455,38 @@ textarea{
   align-items: center;
 }
 
-/* novo topico */
-
-
 /* Likes e comentarios */
 .buttons-favoritar-mais-info p {
   margin-left: 1.2rem;
+}
+
+/* Respostas dos topicos */
+.respostas-do-topico{
+  margin-bottom: 1.6rem;
+  display: none;
+}
+
+.topico-resposta-autor {
+  background-color: var(--cinza-claro);
+  border-radius: 0;
+}
+
+.topico-resposta-autor .container-header-topico{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.topico-resposta-autor .container-header-topico div{
+  display: flex;
+}
+
+.topico-resposta-autor .container-header-topico div p{
+  margin-right: 1rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: var(--orange2);
 }
 
 footer {
