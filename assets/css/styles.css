@@ -395,6 +395,7 @@ textarea {
 
 .linha-divisoria-topico-enviado {
   border-bottom: 0.1rem solid var(--cor-borda-de-baixo);
+  width: 100%;
   margin-top: 5rem;
 }
 
