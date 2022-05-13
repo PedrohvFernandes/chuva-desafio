@@ -8,9 +8,12 @@ que você se sentir melhor e que lhe traga o melhor resultado.
 - Layout: https://www.figma.com/file/0D27YdXU8ibf0AhsBC2OEm/Chuva---Exercício-Frontend?node-id=1%3A123
 - Demonstração: https://www.figma.com/proto/0D27YdXU8ibf0AhsBC2OEm/Chuva---Exercício-Frontend?node-id=321%3A184&scaling=min-zoom
 
-# 🌐 Tela do projeto na web
-  <img height="450" src="">
-
+# 🌐 Tela do projeto na web: Desktop
+  <img height="450" src="https://github.com/PedrohvFernandes/chuva-desafio/blob/main/assets/img/screenshot/Desktop.png">
+  
+# 🌐 Tela do projeto na web: Mobile
+  <img height="450" src="https://github.com/PedrohvFernandes/chuva-desafio/blob/main/assets/img/screenshot/Mobile.png">
+  
 # Hospedagem Netlify: 
 
 - Link: https://chuva-desafio-slaca-2019.netlify.app
