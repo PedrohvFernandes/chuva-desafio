@@ -38,6 +38,8 @@ function criarTopico() {
   document.getElementById("enviar-topico-duvida").style.display = "block";
   document.getElementById("criar-topico-duvida").style.display = "none";
   document.getElementById("topico-duvida-enviado").style.display = "none";
+  document.getElementById("input-assunto").value = "";
+  document.getElementById("input-descricao").value = "";
 }
 
 function enviarTopico() {
