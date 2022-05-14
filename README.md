@@ -22,7 +22,7 @@ que você se sentir melhor e que lhe traga o melhor resultado.
 
 - HTML: <img align="center" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
 - CSS <img align="center" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-- JS
+- JS  <img align="center" height="30" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
 - Flexbox
 
 ## 👨‍💻 Autor:
