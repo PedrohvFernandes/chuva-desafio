@@ -5,7 +5,6 @@
   top: 0;
   bottom: 0;
   right: 0; */
-  z-index: 1;
 }
 
 .side-bar {
@@ -60,6 +59,7 @@
     position: absolute;
     background-color: var(--white-color);
     height: 100%;
+    z-index: 1;
   }
 
   /* unset CSS redefine uma propriedade para seu valor herdado se a propriedade herdar naturalmente de seu pai e para seu valor inicial se não for. */

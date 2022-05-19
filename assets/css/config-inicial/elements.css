@@ -18,14 +18,13 @@ body {
   /* 14px --> 1.4rem(filha) x 10px(HTML/62.5%) = 14x(filha => body) */
   font-size: 1.4rem;
   color: var(--secondary-color);
-  overflow: hidden;
   display: flex;
   height: 100vh;
 }
 
 main {
-  height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 ul {
