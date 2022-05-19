@@ -2,7 +2,7 @@
 .button-donwload,
 .button-estrela-favoritar,
 .button-doi,
-.buttao-criar-topico {
+.button-criar-topico {
   background-color: var(--orange2);
   color: var(--white-color);
   border: none;
@@ -20,7 +20,7 @@
   transition: 0.5s ease-out;
 }
 
-.buttao-criar-topico {
+.button-criar-topico {
   position: relative;
   top: -1.8rem;
   background-image: var(--orange-linear);
@@ -31,9 +31,9 @@
 .button-donwload:hover,
 .button-estrela-favoritar:hover,
 .button-doi:hover,
-.buttao-criar-topico:hover,
+.button-criar-topico:hover,
 .button-enviar-topico:hover,
-.buttao-criar-novo-topico:hover {
+.button-criar-novo-topico:hover {
   background-color: var(--preto-claro);
   transition: 0.5s ease-out;
   background-image: none;
@@ -55,7 +55,7 @@
   width: 25.1rem;
 }
 
-.buttao-criar-novo-topico {
+.button-criar-novo-topico {
   color: var(--white-color);
   border: none;
   border-radius: 0.4rem;
@@ -100,7 +100,7 @@
 }
 
 @media (max-width: 923px) {
-  .buttao-criar-novo-topico {
+  .button-criar-novo-topico {
     width: auto;
   }
 }
