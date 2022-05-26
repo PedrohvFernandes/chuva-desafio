@@ -48,6 +48,14 @@ li:hover::before {
   height: 3.3rem;
 }
 
+button {
+  outline: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-align: center;
+}
+
 /* h1{
   font-size: 3rem;
 } */

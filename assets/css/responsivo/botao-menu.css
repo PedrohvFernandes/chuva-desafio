@@ -1,10 +1,7 @@
-.button-laranja {
+.button-laranja,
+.x-fechar-menu-responsivo{
   display: none;
-  outline: none;
-  border: none;
-  background: none;
   padding: 0;
-  cursor: pointer;
 }
 
 .laranja-menu-responsivo {
@@ -14,17 +11,10 @@
 }
 
 .x-fechar-menu-responsivo {
-  display: none;
-  outline: none;
-  border: none;
   background: var(--orange2);
   color: var(--white-color);
-  padding: 0;
-  cursor: pointer;
   padding: 1rem 1rem;
-  text-align: center;
   border-radius: 1rem;
-  cursor: pointer;
   position: absolute;
   top: 7rem;
   left: 18.6rem;

@@ -1,11 +1,9 @@
 /* Buttons em geral */
 .button-donwload,
 .button-estrela-favoritar,
-.button-doi,
-.button-criar-topico {
+.button-doi{
   background-color: var(--orange2);
   color: var(--white-color);
-  border: none;
   border-radius: 0.4rem;
   font-size: 1.6rem;
   font-weight: 500;
@@ -16,16 +14,39 @@
   align-items: center;
   height: 3.1rem;
   margin-left: 0.5rem;
-  cursor: pointer;
   transition: 0.5s ease-out;
 }
-
+.button-criar-novo-topico,
 .button-criar-topico {
   position: relative;
   top: -1.8rem;
+}
+.button-criar-novo-topico,
+.button-criar-topico,
+.button-enviar-topico {
   background-image: var(--orange-linear);
   box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.12),
-    0 0.2rem 0.2rem rgba(0, 0, 0, 0.24);
+  0 0.2rem 0.2rem rgba(0, 0, 0, 0.24);
+  border: none;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  color: white;
+  padding: 0.5rem 1.3rem;
+  height: 3.2rem;
+  transition: 0.5s ease-out;
+  position: relative;
+}
+
+.button-criar-novo-topico{
+  width: 25%;
+}
+
+.button-enviar-topico {
+  font-family: "Quicksand";
+  height: 3.1rem;
+  width: 25.1rem;
 }
 
 .button-donwload:hover,
@@ -39,42 +60,6 @@
   background-image: none;
 }
 
-.button-enviar-topico {
-  font-family: "Quicksand";
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 1.6rem;
-  text-align: center;
-  background-image: var(--orange-linear);
-  color: var(--white-color);
-  border: none;
-  border-radius: 0 0 0.4rem 0;
-  padding: 0.5rem 1.3rem;
-  cursor: pointer;
-  height: 3.1rem;
-  width: 25.1rem;
-}
-
-.button-criar-novo-topico {
-  color: var(--white-color);
-  border: none;
-  border-radius: 0.4rem;
-  font-size: 1.6rem;
-  font-weight: 500;
-  line-height: 1.9rem;
-  padding: 0.5rem 1.3rem;
-  width: 25%;
-  height: 3.1rem;
-  margin-left: 0.5rem;
-  cursor: pointer;
-  transition: 0.5s ease-out;
-  position: relative;
-  top: -1.7rem;
-  background-image: var(--orange-linear);
-  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.12),
-    0 0.2rem 0.2rem rgba(0, 0, 0, 0.24);
-}
-
 /* Buttons do topico -> tres pontos / coração */
 
 .button-tres-pontos-info {
@@ -84,14 +69,11 @@
 .button-tres-pontos-info,
 .button-favoritar-coracao {
   border: none;
-  outline: none;
   background-color: var(--white-color);
-  cursor: pointer;
 }
 
 .button-favoritar-coracao path {
   transition: 0.5s ease-out;
-  cursor: pointer;
 }
 
 .button-favoritar-coracao path:hover {
